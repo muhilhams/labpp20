@@ -2,7 +2,7 @@ import java.util.*;
 public class yuu0701 {
     public static void main(String[] args) {
         HashMap<String, ArrayList<String>> movieFavourite = new HashMap<>();
-        Scanner vina = new Scanner(System.in);
+        Scanner yuu = new Scanner(System.in);
         movieFavourite.put("Judul", new ArrayList<>());
         movieFavourite.put("Rilis", new ArrayList<>());
         movieFavourite.put("Durasi", new ArrayList<>());
@@ -13,7 +13,7 @@ public class yuu0701 {
         while(cek.equalsIgnoreCase("Y")){
             daftarFilm(movieFavourite);
             System.out.println("(d) detail (s) search (a) add (r) remove");
-            String input = vina.next();
+            String input = yuu.next();
         if(input.equalsIgnoreCase("d")){
             int nomorFilm = yuu.nextInt() - 1;
             detailFilm(nomorFilm,movieFavourite);
