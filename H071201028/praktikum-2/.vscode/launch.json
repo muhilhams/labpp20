@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-No2<praktikum-2_1ed702b8>",
+            "request": "launch",
+            "mainClass": "No2",
+            "projectName": "praktikum-2_1ed702b8"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PraktikumNo1<praktikum-2_1ed702b8>",
+            "request": "launch",
+            "mainClass": "PraktikumNo1",
+            "projectName": "praktikum-2_1ed702b8"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PraktikumNo2<praktikum-2_1ed702b8>",
+            "request": "launch",
+            "mainClass": "PraktikumNo2",
+            "projectName": "praktikum-2_1ed702b8"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Role<praktikum-2_1ed702b8>",
+            "request": "launch",
+            "mainClass": "Role",
+            "projectName": "praktikum-2_1ed702b8"
+        }
+    ]
+}
